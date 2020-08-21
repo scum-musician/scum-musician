@@ -32,4 +32,11 @@ https://www.python.org/downloads/
 
 `pip3 install -r requirements.txt` 
 
-
+### Usage
+If using windows you might have to type python instead of python3.
+Multiple instruments will create multiple AHK files.
+If no AHK is generated lower the "instrument start" number by 1.
+```
+python3 [midifile] [hotkey] [instrumentstart] [speed_multiplier]'
+python3 song.midi F2 3 1'
+```
