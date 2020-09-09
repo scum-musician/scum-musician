@@ -164,8 +164,8 @@ class MusicMan:
 
 if __name__ == '__main__':
     print('Usage examples:')
-    print('python3 [midifile] [hotkey] [instrumentstart] [speed_multiplier]')
-    print('python3 song.midi F2 3 1')
+    print('python3 song_parser.py [midifile] [hotkey] [instrumentstart] [speed_multiplier]')
+    print('python3 song_parser.py song.midi F2 3 1')
     print('If your AHK is not produced, Lower the [instrumentstart] number by 1')
     if len(argv) < 4:
         exit(0)
